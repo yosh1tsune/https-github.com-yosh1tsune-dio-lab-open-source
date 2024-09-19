@@ -1,0 +1,19 @@
+# Tipos de Serviço de Nuvem
+
+## IaaS (Infrastructure as a Service)
+
+Recursos ou serviços com mais envolvimento do cliente na configuração, backup, dimensionamento, monitoramento e etc., e mais acesso ao recurso final.
+
+Ex.: Servidores, armazenamento, firewalls.
+
+## PaaS (Platform as a Service)
+
+Menos envolvimento na infraestrutura e preocupação apenas com o recurso final.
+
+Ex.: SO's, ferramentas para devs, análise de negócios de gerenciamento de bancos de dados.
+
+## SaaS (Software as a Service)
+
+Preocupação apenas com a utilização e configuração de acesso de usuários.
+
+Ex.: Teams, Office 365.
