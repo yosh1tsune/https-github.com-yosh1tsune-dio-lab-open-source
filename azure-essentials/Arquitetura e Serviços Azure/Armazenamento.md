@@ -54,7 +54,7 @@ Fornece uma opção de chave/atributo para o armazenamento de dados estruturados
 
 Endereço público das camadas de armazenamento (URL).
 
-Exemplo de URL: https://<storage-account-name>.<service>.core.windows.net
+Exemplo de URL: https://"storage-account-name"."service".core.windows.net
 
 ## Camadas de Acesso do Armazenamento
 
