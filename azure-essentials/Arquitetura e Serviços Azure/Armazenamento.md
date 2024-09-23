@@ -10,13 +10,21 @@
 
 Quantidade de disponibilidade das contas de armazenamento.
 
-LRS (redundância local): Cópias apenas em um datacenter da região primária.
+### LRS (redundância local)
 
-ZRS (redundância de zona): Cópias em três zonas de disponibilidade da região primária.
+Cópias apenas em um datacenter da região primária.
 
-GRS (redundância geográfica): Cópias em uma zona nas regiões primária e secundária.
+### ZRS (redundância de zona)
 
-GZRS (redundância de zona geográfica): Cópias em três zonas na região primária e uma zona na região secundária.
+Cópias em três zonas de disponibilidade da região primária.
+
+### GRS (redundância geográfica)
+
+Cópias em uma zona nas regiões primária e secundária.
+
+### GZRS (redundância de zona geográfica)
+
+Cópias em três zonas na região primária e uma zona na região secundária.
 
 As cópias são feitas de forma assíncrona, ou seja, não são escritas em todas as zonas no mesmo tempo. As cópias não são feitas para serem diretamente consumidas, apenas em caso de indisponibilidade na zona principal.
 
