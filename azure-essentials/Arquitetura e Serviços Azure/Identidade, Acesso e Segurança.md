@@ -10,11 +10,14 @@ Serviço de gerenciamento de identidades e acesso baseado em nuvem do Azure.
 - Negócios para Negócios (B2B).
 - Gerenciamento de dispositivos.
 
+Acessos de usuários deletados são mantidos inativos por 30 dias, e após isso são deletados permanentemente.
+Para criar cargos customizados é necessário ter a licença Premium P1 ou P2.
+
 ### Domain Services
 
 - Benefícios dos serviços baseados em nuvem sem gerenciar os controladores de domínio.
 - Execute aplicativos herdados (que não podem utilizar os padrões de autenticalção mordernos) na nuvem.
-- Sincronizar automaticamente a partir do Microsoft Entr ID.
+- Sincronizar automaticamente a partir do Microsoft Entra ID (replicar os acessos criados localmente para o ambiente de nuvem e mante-los indenticos).
 
 ## Autenticação
 
@@ -70,4 +73,5 @@ Fatores considerados:
 
 ## Microsoft Defender para Nuvem
 
-É um Serviço de monitoramente que fornece proteçã contra ameaças nos datacenters do Azure e locais. Também funciona com outros providers como AWS e GCP.
+É um Serviço de monitoramento que fornece proteção contra ameaças nos datacenters do Azure e locais. Também funciona com outros providers como AWS e GCP.
+O monitoramento mostra relatórios com recomendações e melhorias que podem ser feitas nas configurações de segurança. Utiliza métricas e notas para informar a qualidade da segurança dos serviços.
